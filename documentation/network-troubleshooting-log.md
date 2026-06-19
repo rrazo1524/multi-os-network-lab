@@ -1,8 +1,9 @@
 # Network Troubleshooting Log
 
-## Scenario 1: Multi-VM Network Connectivity
+## Scenario: Multi-VM Network Connectivity
 
 ### Objective
+
 Establish communication between Windows, Ubuntu, and Kali Linux virtual machines in a Host-Only network environment.
 
 ---
@@ -19,24 +20,26 @@ Establish communication between Windows, Ubuntu, and Kali Linux virtual machines
 
 ## Problem
 
-Initial configuration prevented communication between Windows and Linux virtual machines due to mismatched network adapter settings.
+Initial configuration prevented communication between Windows and Linux virtual machines due to inconsistent VirtualBox network adapter settings. Although systems were assigned IP addresses within the same subnet (192.168.56.0/24), ICMP traffic (ping) initially failed between hosts.
 
 ---
 
 ## Investigation
 
-- Verified VirtualBox network adapter settings
-- Confirmed all VMs were assigned Host-Only networking (or adjusted configuration)
-- Checked IP addressing across all systems
-- Identified that systems were on the same subnet but had connectivity issues initially
+- Reviewed VirtualBox network adapter configurations across all virtual machines to ensure consistent Host-Only networking.
+- Confirmed Host-Only networking was enabled
+- Checked IP addressing on Windows, Ubuntu, and Kali Linux
+- Verified all systems were within the same subnet (192.168.56.0/24)
+- Performed initial connectivity testing using ICMP (ping)
 
 ---
 
 ## Resolution
 
-- Ensured all virtual machines were connected to the same Host-Only network
-- Verified correct IP assignment on all systems
-- Tested connectivity using ICMP ping
+- Standardized all virtual machines to use the same Host-Only network adapter
+- Verified correct IP assignment across all systems
+- Restarted network interfaces on affected virtual machines to apply configuration changes
+- Re-tested connectivity using ICMP (ping)
 
 ---
 
@@ -67,3 +70,11 @@ Initial configuration prevented communication between Windows and Linux virtual 
 - TCP/IP fundamentals
 - Cross-platform system integration
 - IT support-style problem solving
+
+## Real-World Relevance
+
+This scenario simulates a common IT support issue where systems appear correctly configured but fail to communicate due to network misalignment. The troubleshooting process mirrors real-world tasks performed in help desk and system administration roles.
+
+## Conclusion
+
+This exercise reinforced foundational networking concepts and provided hands-on experience troubleshooting virtualized environments commonly used in IT support and system administration roles.
