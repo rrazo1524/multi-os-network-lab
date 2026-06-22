@@ -80,7 +80,7 @@ multi-os-network-lab/
 ## Documentation
 
 - [Network Troubleshooting Log (Completed)](documentation/network-troubleshooting-log.md)
-- SSH Administration Lab (Coming Soon)
+- [SSH Administration Lab (Completed)](documentation/ssh-administration-lab.md)
 - System Administration Notes (Coming Soon)
 
 ## Evidence
