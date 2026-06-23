@@ -14,7 +14,7 @@ Establish communication between Windows, Ubuntu, and Kali Linux virtual machines
 |--------|------------|
 | Windows 11 | 192.168.56.106 |
 | Ubuntu Linux | 192.168.56.101 |
-| Kali Linux | 192.168.56.103 |
+| Kali Linux | 192.168.56.104 |
 
 ---
 
