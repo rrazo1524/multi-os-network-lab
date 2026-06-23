@@ -93,8 +93,8 @@ nmap -n -T4 -F 192.168.56.104
 ```
 
 **Results:**
-- Local scan exhibited inconsistent behavior due to loopback and virtualization handling
-- External host scanning performed normally
+- Host responded successfully
+- Services were identified according to scan output
 
 ---
 
@@ -107,6 +107,10 @@ nmap -n -T4 -F 192.168.56.104
 
 ---
 
+## Evidence Section
+
+
+
 ## Troubleshooting Summary
 
 ### Issue 1: Excessive Host Discovery Results
@@ -115,16 +119,23 @@ Initial scans showed additional IPs (.1 and .100). These were identified as Virt
 
 ---
 
-### Issue 2: Kali Linux Nmap Inconsistency
+### Issue 2: Inconsistent Nmap Scan Results
 
-Nmap scans targeting the local Kali host (192.168.56.104) occasionally experienced delays or incomplete execution. This behavior did not affect scanning of other systems.
+During testing, Nmap scans against Kali Linux and Windows 11 intermittently reported hosts as unavailable or experienced significant delays.
 
-**Cause:**
-VirtualBox network stack behavior combined with loopback handling and SYN scan timing.
+Investigation:
+- Verified IP connectivity using ping.
+- Confirmed all systems were on the same Host-Only network.
+- Verified correct IP assignments.
 
-**Resolution:**
-- Used optimized scan parameters (`-T4`, `-F`, `-n`)
-- Focused on external host enumeration instead of self-scanning
+Resolution:
+- Shut down all virtual machines.
+- Closed and restarted VirtualBox.
+- Restarted all virtual machines.
+- Re-ran Nmap scans.
+
+Result:
+All hosts responded normally after VirtualBox was restarted, indicating a temporary virtualization networking issue.
 
 ---
 
