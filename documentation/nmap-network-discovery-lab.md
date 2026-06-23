@@ -109,6 +109,17 @@ nmap -n -T4 -F 192.168.56.104
 
 ## Evidence Section
 
+### Network Discovery Scan
+![Network Discovery](../screenshots/nmap/network-discovery.png)
+
+### Ubuntu Service Enumeration
+![Ubuntu Services](../screenshots/nmap/ubuntu-services.png)
+
+### Windows Service Enumeration
+![Windows Services](../screenshots/nmap/windows-services.png)
+
+### Kali Service Enumeration
+![Kali Services](../screenshots/nmap/kali-services.png)
 
 
 ## Troubleshooting Summary
