@@ -205,18 +205,3 @@ This lab successfully demonstrated network discovery, service enumeration, and a
 The exercise reinforced core skills in networking, system administration, and cybersecurity fundamentals while providing practical experience with industry-standard tools.
 
 ---
-
-## Repository Structure
-
-```text
-multi-os-network-lab/
-├── README.md
-├── documentation/
-│   ├── network-troubleshooting-log.md
-│   ├── ssh-administration-lab.md
-│   └── nmap-network-discovery-lab.md
-└── screenshots/
-    ├── networking/
-    ├── ssh/
-    └── nmap/
-```
