@@ -103,23 +103,23 @@ nmap -n -T4 -F 192.168.56.104
 - All virtual machines successfully communicate within the Host-Only network
 - Ubuntu exposes SSH service (port 22) for remote administration
 - Windows system filters SMB traffic (port 445), likely due to firewall configuration
-- Kali Linux functions correctly for external scans but shows inconsistent behavior when scanning itself
+-  Kali Linux successfully performs both local and remote scans after VirtualBox restart, with no persistent issues observed.
 
 ---
 
 ## Evidence Section
 
 ### Network Discovery Scan
-![Network Discovery](../screenshots/nmap/network-discovery.png)
+[Network Discovery](../screenshots/nmap/network-discovery.png)
 
 ### Ubuntu Service Enumeration
-![Ubuntu Services](../screenshots/nmap/ubuntu-services.png)
+[Ubuntu Services](../screenshots/nmap/ubuntu-services.png)
 
 ### Windows Service Enumeration
-![Windows Services](../screenshots/nmap/windows-services.png)
+[Windows Services](../screenshots/nmap/windows-services.png)
 
 ### Kali Service Enumeration
-![Kali Services](../screenshots/nmap/kali-services.png)
+[Kali Services](../screenshots/nmap/kali-services.png)
 
 
 ## Troubleshooting Summary
