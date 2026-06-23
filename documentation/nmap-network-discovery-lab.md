@@ -94,7 +94,7 @@ nmap -n -T4 -F 192.168.56.104
 
 **Results:**
 - Host responded successfully
-- Services were identified according to scan output
+- Open ports and services were identified based on Nmap scan results
 
 ---
 
