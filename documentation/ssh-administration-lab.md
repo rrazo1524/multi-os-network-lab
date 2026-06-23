@@ -11,7 +11,7 @@ Configure and test Secure Shell (SSH) remote administration between Kali Linux a
 | System | Role | IP Address |
 |----------|----------|----------|
 | Ubuntu Linux | SSH Server | 192.168.56.101 |
-| Kali Linux | SSH Client | 192.168.56.103 |
+| Kali Linux | SSH Client | 192.168.56.104 |
 
 ---
 
