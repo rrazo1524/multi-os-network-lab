@@ -107,7 +107,7 @@ nmap -n -T4 -F 192.168.56.104
 
 ---
 
-## Evidence Section
+## Evidence
 
 ### Network Discovery Scan
 ![Network Discovery](../screenshots/nmap/network-discovery.png)
