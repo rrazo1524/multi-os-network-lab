@@ -54,7 +54,7 @@ All virtual machines are connected using a Host-Only Adapter in VirtualBox to pr
 |----------|----------|
 | Windows 11 | 192.168.56.106 |
 | Ubuntu Linux | 192.168.56.101 |
-| Kali Linux | 192.168.56.103 |
+| Kali Linux | 192.168.56.104 |
 
 ## Skills Demonstrated
 
