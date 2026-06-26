@@ -48,20 +48,17 @@ This lab was conducted in an Ubuntu Linux virtual machine running inside Virtual
 
 ```bash
 sudo groupadd projectteam
-
 ```
 ## Step 2: Create Shared Directory
 
 ```bash
 sudo mkdir /projectlab
-
 ```
 ## Step 3: Configure Ownership and Permissions
 
 ```bash
 sudo chowm root:projecctteam /projectlab
 sudo chmod 770 /projectlab
-
 ```
 
 
