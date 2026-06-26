@@ -135,8 +135,20 @@ tcp
 ## Evidence
 
 ### Wireshark Capture Overview
-![Wireshark Capture Overview](../screenshoots/wireshark/wireshark-main.png)
 
+![Wireshark Main Interface](../screenshots/wireshark/wireshark-main.png)
+
+### ICMP Traffic Analysis
+
+![ICMP Traffic](../screenshots/wireshark/icmp-traffic.png)
+
+### SSH Traffic Analysis
+
+![SSH Traffic](../screenshots/wireshark/ssh-traffic.png)
+
+### Nmap Scan Traffic
+
+![Nmap Traffic](../screenshots/wireshark/nmap-traffic.png)
 
 
 ---
