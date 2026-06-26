@@ -147,8 +147,8 @@ multi-os-network-lab/
 
 ### Completed Labs
 
-- [Network Troubleshooting Log (Completed)](documentation/network-troubleshooting-log.md)
-- [SSH Administration Lab (Completed)](documentation/ssh-administration-lab.md)
+- [Network Troubleshooting Log](documentation/network-troubleshooting-log.md)
+- [SSH Administration Lab](documentation/ssh-administration-lab.md)
 - [Nmap Network Discovery Lab](documentation/nmap-network-discovery-lab.md)
 - [Wireshark Traffic Analysis Lab](documentation/wireshark-traffic-analysis-lab.md)
 
