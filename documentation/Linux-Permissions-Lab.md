@@ -60,5 +60,10 @@ sudo mkdir /projectlab
 sudo chowm root:projecctteam /projectlab
 sudo chmod 770 /projectlab
 ```
+### Permission Breakdown
+- Owner (root): read, write, execute
+- Group (projectteam): read, write, execute
+- Others: no access
 
+## Step
 
