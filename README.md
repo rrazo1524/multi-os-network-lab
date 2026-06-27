@@ -1,5 +1,10 @@
 # Multi-OS Network Lab
 
+![Platform](https://img.shields.io/badge/Platform-VirtualBox-blue)
+![OS](https://img.shields.io/badge/OS-Windows%2011%20%7C%20Ubuntu%20%7C%20Kali-success)
+![Status](https://img.shields.io/badge/Status-Active-brightgreen)
+![License](https://img.shields.io/badge/License-MIT-lightgrey)
+
 ## Overview
 
 This repository documents my personal IT home lab environment built using virtual machines running Windows, Ubuntu, and Kali Linux.
@@ -16,6 +21,38 @@ The purpose of this lab is to develop skills in:
 - Cross-Platform Integration
 
 ---
+
+## What You'll Find
+
+Each lab includes:
+
+- Objectives
+- Lab environment
+- Commands executed
+- Screenshots
+- Technical explanations
+- Troubleshooting steps
+- Security observations
+- Real-world relevance
+- Skills demonstrated
+
+---
+
+## Table of Contents
+
+- [Overview](#overview)
+- [Lab Environment](#lab-environment)
+- [Technologies Used](#technologies-used)
+- [Project Goals](#project-goals)
+- [Network Configuration](#network-configuration)
+- [Skills Demonstrated](#skills-demonstrated)
+- [Key Achievements](#key-achievements)
+- [Lab Progress](#lab-progress)
+- [Repository Structure](#repository-structure)
+- [Documentation](#documentation)
+- [Evidence](#evidence)
+- [Project Status](#project-status)
+- [Summary](#summary)
 
 ## Lab Environment
 
@@ -36,8 +73,12 @@ The purpose of this lab is to develop skills in:
 - OpenSSH Server
 - Nmap
 - Wireshark
-- TCP/IP Networking
-- ICMP
+- Bash
+- Linux User Management
+- chmod
+- chown
+- useradd
+- usermod
 - Git
 - GitHub
 
@@ -52,6 +93,7 @@ The purpose of this lab is to develop skills in:
 - Nmap (network discovery and scanning)
 - Wireshark (packet capture and analysis)
 - Ping / ICMP troubleshooting
+- Linux user and group management utilities (useradd, usermod, groupadd, chmod, chown)
 
 ---
 
@@ -93,6 +135,9 @@ All virtual machines communicate through a VirtualBox Host-Only network, creatin
 - Host-Only network configuration
 - Network troubleshooting
 - Linux command-line administration
+- Linux user management
+- Linux group management
+- Linux file permissions and access control
 - Windows system administration
 - SSH remote administration
 - Network discovery with Nmap
@@ -109,6 +154,35 @@ All virtual machines communicate through a VirtualBox Host-Only network, creatin
 - Performed network discovery and port scanning using Nmap
 - Captured and analyzed real network traffic using Wireshark
 - Resolved network connectivity issues through systematic troubleshooting
+- Configured secure Linux file permissions using users, groups, and shared directories
+
+---
+
+## Portfolio Highlights
+
+This repository contains hands-on IT and cybersecurity labs built inside a self-hosted virtual environment. Each project emphasizes practical administration, troubleshooting, networking, and security skills commonly used in enterprise environments.
+
+- Linux system administration
+- SSH remote administration
+- TCP/IP networking
+- Network troubleshooting
+- Nmap network discovery
+- Wireshark packet analysis
+- Linux users, groups, and permissions
+- Technical documentation
+
+---
+
+## Lab Statistics
+
+- 🖥️ **3 Virtual Machines**
+- 📄 **5 Completed Labs**
+- 📸 **40+ Screenshots**
+- 💻 **100+ Linux & Windows Commands Executed**
+- 🔒 **SSH Remote Administration**
+- 🌐 **TCP/IP Networking**
+- 🔍 **Nmap Network Discovery**
+- 📡 **Wireshark Packet Analysis**
 
 ---
 
@@ -116,11 +190,11 @@ All virtual machines communicate through a VirtualBox Host-Only network, creatin
 
 | Lab | Status |
 |-----|--------|
-| Network Troubleshooting | Completed |
-| SSH Administration | Completed |
-| Nmap Network Discovery | Completed |
-| Wireshark Traffic Analysis | Completed |
-| Linux User & Permissions | Planned |
+| Network Troubleshooting | ✅ Completed |
+| SSH Administration | ✅ Completed |
+| Nmap Network Discovery | ✅ Completed |
+| Wireshark Traffic Analysis | ✅ Completed |
+| Linux Permissions | ✅ Completed |
 
 ---
 
@@ -130,14 +204,16 @@ All virtual machines communicate through a VirtualBox Host-Only network, creatin
 multi-os-network-lab/
 ├── README.md
 ├── documentation/
+│   ├── linux-permissions-lab.md
 │   ├── network-troubleshooting-log.md
-│   ├── ssh-administration-lab.md
 │   ├── nmap-network-discovery-lab.md
+│   ├── ssh-administration-lab.md
 │   └── wireshark-traffic-analysis-lab.md
 └── screenshots/
+    ├── linux-permissions/
     ├── networking/
-    ├── ssh/
     ├── nmap/
+    ├── ssh/
     └── wireshark/
 ```
 
@@ -151,6 +227,7 @@ multi-os-network-lab/
 - [SSH Administration Lab](documentation/ssh-administration-lab.md)
 - [Nmap Network Discovery Lab](documentation/nmap-network-discovery-lab.md)
 - [Wireshark Traffic Analysis Lab](documentation/wireshark-traffic-analysis-lab.md)
+- [Linux Permissions Lab](documentation/linux-permissions-lab.md)
 
 ---
 
@@ -183,14 +260,16 @@ multi-os-network-lab/
 - SSH remote administration
 - Network discovery using Nmap
 - Packet capture and analysis using Wireshark
+- Linux user and group management
+- Linux file permissions and access control
 
 ---
 
 ### Currently Building
 
-- Linux User and Group Management
-- Linux File Permissions
 - Firewall Configuration (UFW)
+- Apache Web Server
+- Linux Log Analysis
 
 ---
 
@@ -215,4 +294,10 @@ This environment simulates real-world IT and cybersecurity scenarios commonly fo
 
 The project is continuously expanded through additional labs focused on Linux administration, networking, and cybersecurity fundamentals.
 
-These skills are directly applicable to IT support, system administration, network engineering, and cybersecurity analyst roles.
+This repository showcases a growing collection of hands-on IT infrastructure and cybersecurity labs completed within a self-built virtual environment using Windows 11, Ubuntu Linux, and Kali Linux.
+
+The projects demonstrate practical experience with Linux administration, networking, remote access, packet analysis, troubleshooting, and security concepts using industry-standard tools such as OpenSSH, Nmap, and Wireshark.
+
+Each lab is fully documented with objectives, methodologies, commands, screenshots, technical analysis, and conclusions to simulate the documentation standards commonly used in enterprise IT environments.
+
+The repository will continue to expand with additional labs covering Linux administration, web services, firewall configuration, vulnerability assessment, Active Directory, and cybersecurity fundamentals as I continue developing skills for IT support, system administration, and cybersecurity roles.
