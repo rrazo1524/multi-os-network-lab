@@ -51,51 +51,95 @@ This lab was conducted in an Ubuntu Linux virtual machine running inside Virtual
 ```bash
 sudo groupadd projectteam
 ```
-## Step 2: Create Shared Directory
+## Step 2: Create Lab Users
+
+```bash
+sudo useradd -m alice
+sudo useradd -m bob
+sudo useradd -m outsider
+```
+
+Passwords were assigned to each account using the passwd command to allow authentication during testing.
+
+```bash
+
+sudo passwd alice
+sudo passwd bob
+sudo passwd outsider
+```
+
+## Step 3: Create Shared Directory
 
 ```bash
 sudo mkdir /projectlab
 ```
-## Step 3: Configure Ownership and Permissions
+
+## Step 4: Configure Ownership and Permissions
 
 ```bash
-sudo chown root:projecctteam /projectlab
+sudo chown root:projectteam /projectlab
 sudo chmod 770 /projectlab
 ```
+
 ### Permission Breakdown
+
 - Owner (root): read, write, execute
 - Group (projectteam): read, write, execute
 - Others: no access
+
 This ensures only authorized users can access the directory
 
-## Step 4: Add Users to Group
+## Step 5: Add Users to Group
 
 ```bash
 sudo usermod -aG projectteam alice
 sudo usermod -aG projectteam bob
 ```
+
 ⚠️ Users must log out and log back in (or reboot) for changes to apply.
 
-## Step 5: File Creation and Testing
+## Step 6: Test Shared File Access
+
+Switch to the **alice** user and create a test file inside the sahred directory.
 
 ```bash
+su - alice
 echo "Hello from Alice" > /projectlab/alice.txt
 ```
+
+```bash
+su - bob
+cat /projectlab/alice.txt
+```
+
+## Observed Results
+
+- Bob successfully accessed the file created by Alice.
+- Group permissions allowed collaboration within the shared directory.
+
 Directory contents were verified:
 
 ```bash
 ls -l /projectlab
 ```
 
-## Step 6: Verify Unauthorized Access
+## Step 7: Verify Unauthorized Access
 
 The `outsider` user was intentionally excluded from the **projectteam** group to verify that Linux permissions prevent unauthorized access.
 
 ```bash
 su - outsider
 cd /projectlab
+ls -l
 
 ```
+
+## Observed Results
+
+- The **outsider** user received a Permission denied error.
+Because the user was not a member of the **projectteam** group, Linux correctly prevented access to the shared directory.
+
+---
 
 ## Evidence
 
@@ -155,6 +199,7 @@ cd /projectlab
 - Linux enforces strong built-in security through permissions
 - Least privilege principles improve system security
 - Linux enforces access restrictions based on group membership
+- Shared directories should be assigned only to users who require access, reducing the risk of unauthorized data exposure
 
 ---
 
@@ -162,7 +207,7 @@ cd /projectlab
 
 ### Issue: Cannot list directory contents
 
-ls -l /projectlab initially failed.
+While testing, authorized users were temporarily unable to access the shared directory after being added to the projectteam group
 
 **Cause:**
 
@@ -171,7 +216,7 @@ Group membership was not applied in the active session.
 **Resolution:**
 - Verified group membership
 - Logged out and back in
-- Confirmed access to /projectlab
+- Confirmed that **alice** and **bob** could access the shared directory after re-authenticating
 
 ---
 
@@ -191,7 +236,9 @@ Understanding permissions is essential for system administration and security ro
 
 ## Conclusion
 
-This lab demonstrated Linux file permissions, group management, and secure shared directory configuration. It showed how Linux enforces access control through ownership and permission bits while enabling controlled collaboration between multiple users.
+This lab demonstrated how Linux manages access control through users, groups, file ownership, and permission bits. A shared directory was configured using group-based permissions, allowing authorized users to collaborate while preventing unauthorized access. The exercise reinforced core Linux administration concepts commonly used in enterprise environments, including user management, access control, and the principle of least privilege.
+
+The lab also demonstrated the practical application of Linux's principle of least privilege by allowing only authorized group members to access shared resources while denying access to unauthorized users.
 
 ---
 
