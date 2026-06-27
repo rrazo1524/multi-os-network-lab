@@ -5,6 +5,16 @@
 ![Status](https://img.shields.io/badge/Status-Active-brightgreen)
 ![License](https://img.shields.io/badge/License-MIT-lightgrey)
 
+## Featured Labs
+
+This repository currently includes the following completed hands-on projects:
+
+- 🛠️ Network Troubleshooting Lab – Diagnosed and resolved virtual machine networking issues within a VirtualBox Host-Only environment.
+- 🔐 SSH Administration Lab – Configured secure remote administration between Ubuntu and Kali Linux using OpenSSH.
+- 🌐 Nmap Network Discovery Lab – Performed host discovery, port scanning, and service enumeration.
+- 📡 Wireshark Traffic Analysis Lab – Captured and analyzed ICMP, TCP, SSH, and network scanning traffic using Wireshark.
+- 🐧 Linux Permissions Lab – Configured Linux users, groups, shared directories, and file permissions to demonstrate secure access control.
+
 ## Overview
 
 This repository documents my personal IT home lab environment built using virtual machines running Windows, Ubuntu, and Kali Linux.
@@ -41,12 +51,15 @@ Each lab includes:
 ## Table of Contents
 
 - [Overview](#overview)
+- [What You'll Find](#what-youll-find)
 - [Lab Environment](#lab-environment)
 - [Technologies Used](#technologies-used)
 - [Project Goals](#project-goals)
 - [Network Configuration](#network-configuration)
 - [Skills Demonstrated](#skills-demonstrated)
 - [Key Achievements](#key-achievements)
+- [Portfolio Highlights](#portfolio-highlights)
+- [Lab Statistics](#lab-statistics)
 - [Lab Progress](#lab-progress)
 - [Repository Structure](#repository-structure)
 - [Documentation](#documentation)
@@ -286,18 +299,31 @@ multi-os-network-lab/
 
 ## Summary
 
-This project demonstrates hands-on experience building and maintaining a multi-operating system virtual lab environment using Windows 11, Ubuntu Linux, and Kali Linux.
+This repository showcases a growing collection of hands-on IT infrastructure and cybersecurity labs built within a self-hosted virtual environment using Windows 11, Ubuntu Linux, and Kali Linux.
 
-The lab covers practical skills in network configuration, system administration, remote access, network discovery, and packet analysis using industry-standard tools such as OpenSSH, Nmap, and Wireshark.
+The projects demonstrate practical experience with:
 
-This environment simulates real-world IT and cybersecurity scenarios commonly found in enterprise networks, including troubleshooting connectivity issues, analyzing traffic, and identifying active services across multiple systems.
+- Linux system administration
+- Windows administration
+- TCP/IP networking
+- Virtual machine deployment and management
+- SSH remote administration
+- Network troubleshooting
+- Network discovery using Nmap
+- Packet capture and traffic analysis using Wireshark
+- Linux users, groups, and file permissions
+- Technical documentation following industry best practices
 
-The project is continuously expanded through additional labs focused on Linux administration, networking, and cybersecurity fundamentals.
+Each lab follows a consistent structure that includes objectives, methodologies, commands, screenshots, technical analysis, troubleshooting notes, security observations, and conclusions. This documentation style mirrors the standards commonly used in enterprise IT environments.
 
-This repository showcases a growing collection of hands-on IT infrastructure and cybersecurity labs completed within a self-built virtual environment using Windows 11, Ubuntu Linux, and Kali Linux.
+As new labs are completed, this repository will continue to expand with projects covering Linux administration, web services, firewall configuration, log analysis, vulnerability assessment, Windows Server, Active Directory, and cybersecurity fundamentals.
 
-The projects demonstrate practical experience with Linux administration, networking, remote access, packet analysis, troubleshooting, and security concepts using industry-standard tools such as OpenSSH, Nmap, and Wireshark.
+The goal of this repository is to demonstrate continuous hands-on learning while building a professional portfolio for careers in IT support, system administration, network engineering, and cybersecurity.
 
-Each lab is fully documented with objectives, methodologies, commands, screenshots, technical analysis, and conclusions to simulate the documentation standards commonly used in enterprise IT environments.
+---
 
-The repository will continue to expand with additional labs covering Linux administration, web services, firewall configuration, vulnerability assessment, Active Directory, and cybersecurity fundamentals as I continue developing skills for IT support, system administration, and cybersecurity roles.
+## About This Repository
+
+This repository is actively maintained as part of my ongoing professional development in information technology and cybersecurity. New labs, documentation, and screenshots will be added as additional technologies and administrative tasks are explored.
+
+If you're reviewing this portfolio, thank you for taking the time to explore my work.
