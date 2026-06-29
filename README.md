@@ -4,6 +4,11 @@
 ![OS](https://img.shields.io/badge/OS-Windows%2011%20%7C%20Ubuntu%20%7C%20Kali-success)
 ![Status](https://img.shields.io/badge/Status-Active-brightgreen)
 ![License](https://img.shields.io/badge/License-MIT-lightgrey)
+![Virtualization](https://img.shields.io/badge/Virtualization-VirtualBox-blue)
+![Networking](https://img.shields.io/badge/Networking-TCP%2FIP-green)
+![Linux](https://img.shields.io/badge/Linux-Ubuntu-orange)
+![Security](https://img.shields.io/badge/Security-UFW%20%7C%20SSH-red)
+![Documentation](https://img.shields.io/badge/Documentation-Complete-brightgreen)
 
 ## 👤 About Me
 
@@ -40,6 +45,10 @@ This repository currently includes the following completed hands-on projects:
 - 📡 Wireshark Traffic Analysis Lab – Captured and analyzed ICMP, TCP, SSH, and network scanning traffic using Wireshark.
 - 🐧 Linux Permissions Lab – Configured Linux users, groups, shared directories, and file permissions to demonstrate secure access control.
 - 🔥 UFW Firewall Configuration Lab – Configured and tested Ubuntu's Uncomplicated Firewall (UFW), created allow/deny rules, and validated firewall behavior using SSH and Nmap.
+
+---
+
+
 
 ---
 
@@ -187,16 +196,6 @@ This roadmap outlines completed, current, and planned technical labs in this rep
 
 ---
 
-## Network Configuration
-
-All virtual machines are connected using a Host-Only Adapter in VirtualBox to provide isolated communication between systems.
-
-## Network Architecture
-
-All virtual machines communicate through a VirtualBox Host-Only network, creating an isolated internal environment for safe testing of networking, system administration, and security tools without external network exposure.
-
----
-
 ## 🏗️ Lab Architecture Overview
 
 This environment simulates a small enterprise-style network using VirtualBox Host-Only networking.
@@ -210,15 +209,14 @@ This environment simulates a small enterprise-style network using VirtualBox Hos
         |                                       |
 [ Ubuntu Server ] ------------------- [ Kali Linux ]
    SSH Server        Logs + Firewall     Security Testing
+```
 
-Key Design Principles
+### Key Design Principles
 - Isolated Host-Only network (no external internet access)
 - Safe environment for testing networking and security tools
 - Simulated attacker (Kali Linux) and server (Ubuntu)
 - Windows used for traffic generation and validation
-Supports controlled penetration testing and monitoring scenarios
-
-```
+- Supports controlled penetration testing and monitoring scenarios
 
 ## 🧪 Lab Methodology Standard
 
@@ -239,11 +237,17 @@ Each lab in this repository follows a consistent structure:
 
 ## 🌐 Network Configuration
 
-All systems operate on a VirtualBox Host-Only network.
+All virtual machines are connected using a VirtualBox Host-Only Adapter to provide isolated communication between systems.
 
-## Current Lab IP Addressing (Internal Network)
+### Current Lab IP Addressing
 
-All systems use private addressing for isolated testing.
+All systems use private IP addressing for isolated testing within the lab environment.
+
+| System | IP Address |
+|---------|------------|
+| Windows 11 | 192.168.56.106 |
+| Ubuntu Linux | 192.168.56.101 |
+| Kali Linux | 192.168.56.104 |
 
 ---
 
@@ -327,6 +331,8 @@ This repository contains hands-on IT and cybersecurity labs built inside a self-
 - 🔍 **Nmap Network Discovery**
 - 📡 **Wireshark Packet Analysis**
 
+These statistics continue to grow as additional labs and technologies are added to the repository.
+
 ---
 
 ## Lab Progress
@@ -352,7 +358,7 @@ multi-os-network-lab/
 │   ├── network-troubleshooting-log.md
 │   ├── nmap-network-discovery-lab.md
 │   ├── ssh-administration-lab.md
-│   ├── ufw-firewall-lab.md
+│   ├── ufw-firewall-configuration-lab.md
 │   └── wireshark-traffic-analysis-lab.md
 └── screenshots/
     ├── linux-permissions/
@@ -369,6 +375,8 @@ multi-os-network-lab/
 
 ### Completed Labs
 
+Each lab includes objectives, step-by-step procedures, screenshots, troubleshooting notes, and security observations to demonstrate both technical execution and documentation skills.
+
 - [Network Troubleshooting Log](documentation/network-troubleshooting-log.md)
 - [SSH Administration Lab](documentation/ssh-administration-lab.md)
 - [Nmap Network Discovery Lab](documentation/nmap-network-discovery-lab.md)
@@ -380,7 +388,7 @@ multi-os-network-lab/
 
 ## Evidence
 
-### Network Configuration
+### Network IP Configuration
 
 #### Windows IP Configuration
 ![Windows IP Configuration](screenshots/networking/windows-ipconfig.png)
