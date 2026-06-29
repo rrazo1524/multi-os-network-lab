@@ -9,6 +9,21 @@
 
 IT student focused on system administration, networking, and cybersecurity. This repository serves as a hands-on lab portfolio demonstrating real-world technical skills through a self-built virtual environment.
 
+## 🚀 What This Portfolio Demonstrates
+
+This project demonstrates practical, job-ready experience in:
+
+- Linux system administration
+- Network troubleshooting and diagnostics
+- Firewall configuration and security hardening
+- Secure remote administration (SSH)
+- Network scanning and traffic analysis
+- Virtualized enterprise-style environments
+
+## 🎯 Career Focus
+
+Aspiring IT Support / System Administrator / Cybersecurity Analyst with a focus on hands-on infrastructure, networking, and defensive security skills.
+
 ## 👨‍💻 IT & Cybersecurity Lab Portfolio
 
 A structured, hands-on virtual lab environment demonstrating real-world skills in Linux administration, networking, system security, and troubleshooting.
@@ -26,12 +41,13 @@ This repository currently includes the following completed hands-on projects:
 - 🐧 Linux Permissions Lab – Configured Linux users, groups, shared directories, and file permissions to demonstrate secure access control.
 - 🔥 UFW Firewall Configuration Lab – Configured and tested Ubuntu's Uncomplicated Firewall (UFW), created allow/deny rules, and validated firewall behavior using SSH and Nmap.
 
-## Overview
+---
+
+## 📘 Overview
 
 This repository documents my personal IT home lab environment built using virtual machines running Windows, Ubuntu, and Kali Linux.
 
 The purpose of this lab is to develop skills in:
-
 - Windows Administration
 - Linux Administration
 - Networking
@@ -40,6 +56,20 @@ The purpose of this lab is to develop skills in:
 - System Troubleshooting
 - Security Fundamentals
 - Cross-Platform Integration
+
+---
+
+## 🧪 Lab Structure Overview
+
+Each lab in this repository follows a professional documentation structure:
+
+- Clear objectives and lab goals
+- Step-by-step command execution
+- Real-world troubleshooting scenarios
+- Security analysis and observations
+- Screenshots as evidence of execution
+- Technical explanations of outcomes
+- Skills mapping to enterprise IT concepts
 
 ---
 
@@ -57,24 +87,9 @@ This lab environment focuses on building practical skills in:
 
 ---
 
-## 📘 Lab Structure Overview
-
-Each lab in this repository follows a professional documentation structure:
-
-- Clear objectives and lab goals
-- Step-by-step command execution
-- Real-world troubleshooting scenarios
-- Security analysis and observations
-- Screenshots as evidence of execution
-- Technical explanations of outcomes
-- Skills mapping to enterprise IT concepts
-
----
-
 ## Table of Contents
 
 - [Overview](#overview)
-- [What You'll Find](#what-youll-find)
 - [Lab Environment](#lab-environment)
 - [Technologies Used](#technologies-used)
 - [Project Goals](#project-goals)
@@ -121,7 +136,7 @@ Each lab in this repository follows a professional documentation structure:
 
 ---
 
-## Tools Used in This Lab Series
+## 🛠️ Tools and Technologies
 
 - VirtualBox (virtual machine networking and isolation)
 - Linux Terminal (Ubuntu + Kali)
@@ -189,7 +204,7 @@ This environment simulates a small enterprise-style network using VirtualBox Hos
 ```text
                  [ Windows 11 ]
                        |
-                       |  ICMP / TCP / SSH / Nmap
+          ICMP / TCP / SSH / Nmap Traffic
                        |
         -----------------------------------------
         |                                       |
@@ -197,15 +212,14 @@ This environment simulates a small enterprise-style network using VirtualBox Hos
    SSH Server        Logs + Firewall     Security Testing
 
 Key Design Principles
-- Isolated internal network (Host-Only)
-- No external internet dependency for testing
-- Simulated attacker (Kali) and server (Ubuntu)
-- Windows used for traffic generation and testing
+- Isolated Host-Only network (no external internet access)
+- Safe environment for testing networking and security tools
+- Simulated attacker (Kali Linux) and server (Ubuntu)
+- Windows used for traffic generation and validation
+Supports controlled penetration testing and monitoring scenarios
 
 ```
----
 
-```markdown
 ## 🧪 Lab Methodology Standard
 
 Each lab in this repository follows a consistent structure:
@@ -221,17 +235,15 @@ Each lab in this repository follows a consistent structure:
 9. Real-World Application
 10. Conclusion and Skills Summary
 
-```
-
 ---
 
-### Current IP Addresses
+## 🌐 Network Configuration
 
-| System | IP Address |
-|----------|----------|
-| Windows 11 | 192.168.56.106 |
-| Ubuntu Linux | 192.168.56.101 |
-| Kali Linux | 192.168.56.104 |
+All systems operate on a VirtualBox Host-Only network.
+
+## Current Lab IP Addressing (Internal Network)
+
+All systems use private addressing for isolated testing.
 
 ---
 
@@ -309,7 +321,7 @@ This repository contains hands-on IT and cybersecurity labs built inside a self-
 - 🖥️ **3 Virtual Machines**
 - 📄 **6 Completed Labs**
 - 📸 **50+ Screenshots**
-- 💻 **140+ Linux & Windows Commands Executed**
+- 💻 **Extensive Linux and Windows command-line administration across all labs**
 - 🔒 **SSH Remote Administration**
 - 🌐 **TCP/IP Networking**
 - 🔍 **Nmap Network Discovery**
@@ -453,6 +465,14 @@ Core technologies used include:
 Each lab is fully documented with structured methodology, commands, screenshots, and technical explanations aligned with real enterprise documentation practices.
 
 This environment was built and maintained using VirtualBox to simulate enterprise-style network segmentation, security controls, and system administration workflows commonly found in production IT environments.
+
+---
+
+## 🔒 Security Mindset
+
+All labs were built with a focus on least privilege, network isolation, and secure configuration practices to simulate defensive security principles used in enterprise environments.
+
+---
 
 ## 🚀 Professional Value
 
