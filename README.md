@@ -4,11 +4,9 @@
 ![OS](https://img.shields.io/badge/OS-Windows%2011%20%7C%20Ubuntu%20%7C%20Kali-success)
 ![Status](https://img.shields.io/badge/Status-Active-brightgreen)
 ![License](https://img.shields.io/badge/License-MIT-lightgrey)
-![Virtualization](https://img.shields.io/badge/Virtualization-VirtualBox-blue)
-![Networking](https://img.shields.io/badge/Networking-TCP%2FIP-green)
-![Linux](https://img.shields.io/badge/Linux-Ubuntu-orange)
-![Security](https://img.shields.io/badge/Security-UFW%20%7C%20SSH-red)
-![Documentation](https://img.shields.io/badge/Documentation-Complete-brightgreen)
+![Portfolio](https://img.shields.io/badge/Portfolio-Hands--On-blueviolet)
+![Labs](https://img.shields.io/badge/Labs-6%20Completed-success)
+
 
 ## 👤 About Me
 
@@ -45,10 +43,6 @@ This repository currently includes the following completed hands-on projects:
 - 📡 Wireshark Traffic Analysis Lab – Captured and analyzed ICMP, TCP, SSH, and network scanning traffic using Wireshark.
 - 🐧 Linux Permissions Lab – Configured Linux users, groups, shared directories, and file permissions to demonstrate secure access control.
 - 🔥 UFW Firewall Configuration Lab – Configured and tested Ubuntu's Uncomplicated Firewall (UFW), created allow/deny rules, and validated firewall behavior using SSH and Nmap.
-
----
-
-
 
 ---
 
