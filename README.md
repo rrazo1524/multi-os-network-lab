@@ -361,7 +361,7 @@ multi-os-network-lab/
 - [SSH Administration Lab](documentation/ssh-administration-lab.md)
 - [Nmap Network Discovery Lab](documentation/nmap-network-discovery-lab.md)
 - [Wireshark Traffic Analysis Lab](documentation/wireshark-traffic-analysis-lab.md)
-- [Linux Permissions Lab](documentation/Linux-Permissions-Lab.md)
+- [Linux Permissions Lab](documentation/linux-permissions-lab.md)
 - [UFW Firewall Configuration Lab](documentation/ufw-firewall-configuration-lab.md)
 
 ---
