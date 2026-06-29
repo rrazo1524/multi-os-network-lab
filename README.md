@@ -14,6 +14,7 @@ This repository currently includes the following completed hands-on projects:
 - 🌐 Nmap Network Discovery Lab – Performed host discovery, port scanning, and service enumeration.
 - 📡 Wireshark Traffic Analysis Lab – Captured and analyzed ICMP, TCP, SSH, and network scanning traffic using Wireshark.
 - 🐧 Linux Permissions Lab – Configured Linux users, groups, shared directories, and file permissions to demonstrate secure access control.
+- 🔥 UFW Firewall Configuration Lab – Configured and tested Ubuntu's Uncomplicated Firewall (UFW), created allow/deny rules, and validated firewall behavior using SSH and Nmap.
 
 ## Overview
 
@@ -86,6 +87,7 @@ Each lab includes:
 - OpenSSH Server
 - Nmap
 - Wireshark
+- UFW (Uncomplicated Firewall)
 - Bash
 - Linux User Management
 - chmod
@@ -107,6 +109,7 @@ Each lab includes:
 - Wireshark (packet capture and analysis)
 - Ping / ICMP troubleshooting
 - Linux user and group management utilities (useradd, usermod, groupadd, chmod, chown)
+- UFW (host-based firewall management)
 
 ---
 
@@ -157,6 +160,9 @@ All virtual machines communicate through a VirtualBox Host-Only network, creatin
 - Packet capture and analysis using Wireshark
 - Technical documentation
 - Cybersecurity fundamentals
+- Linux firewall administration
+- UFW configuration
+- Network access control
 
 ---
 
@@ -168,6 +174,7 @@ All virtual machines communicate through a VirtualBox Host-Only network, creatin
 - Captured and analyzed real network traffic using Wireshark
 - Resolved network connectivity issues through systematic troubleshooting
 - Configured secure Linux file permissions using users, groups, and shared directories
+- Configured and verified host-based firewall rules using UFW
 
 ---
 
@@ -183,15 +190,16 @@ This repository contains hands-on IT and cybersecurity labs built inside a self-
 - Wireshark packet analysis
 - Linux users, groups, and permissions
 - Technical documentation
+- Linux firewall configuration using UFW
 
 ---
 
 ## Lab Statistics
 
 - 🖥️ **3 Virtual Machines**
-- 📄 **5 Completed Labs**
-- 📸 **40+ Screenshots**
-- 💻 **100+ Linux & Windows Commands Executed**
+- 📄 **6 Completed Labs**
+- 📸 **50+ Screenshots**
+- 💻 **140+ Linux & Windows Commands Executed**
 - 🔒 **SSH Remote Administration**
 - 🌐 **TCP/IP Networking**
 - 🔍 **Nmap Network Discovery**
@@ -208,6 +216,7 @@ This repository contains hands-on IT and cybersecurity labs built inside a self-
 | Nmap Network Discovery | ✅ Completed |
 | Wireshark Traffic Analysis | ✅ Completed |
 | Linux Permissions | ✅ Completed |
+| UFW Firewall Configuration | ✅ Completed |
 
 ---
 
@@ -221,12 +230,14 @@ multi-os-network-lab/
 │   ├── network-troubleshooting-log.md
 │   ├── nmap-network-discovery-lab.md
 │   ├── ssh-administration-lab.md
+│   ├── ufw-firewall-lab.md
 │   └── wireshark-traffic-analysis-lab.md
 └── screenshots/
     ├── linux-permissions/
     ├── networking/
     ├── nmap/
     ├── ssh/
+    ├── ufw/
     └── wireshark/
 ```
 
@@ -241,6 +252,7 @@ multi-os-network-lab/
 - [Nmap Network Discovery Lab](documentation/nmap-network-discovery-lab.md)
 - [Wireshark Traffic Analysis Lab](documentation/wireshark-traffic-analysis-lab.md)
 - [Linux Permissions Lab](documentation/Linux-Permissions-Lab.md)
+- [UFW Firewall Configuration Lab](documentation/ufw-firewall-lab.md)
 
 ---
 
@@ -275,14 +287,15 @@ multi-os-network-lab/
 - Packet capture and analysis using Wireshark
 - Linux user and group management
 - Linux file permissions and access control
+- Linux firewall configuration using UFW
 
 ---
 
 ### Currently Building
 
-- Firewall Configuration (UFW)
 - Apache Web Server
 - Linux Log Analysis
+- DNS Troubleshooting
 
 ---
 
@@ -319,6 +332,8 @@ Each lab follows a consistent structure that includes objectives, methodologies,
 As new labs are completed, this repository will continue to expand with projects covering Linux administration, web services, firewall configuration, log analysis, vulnerability assessment, Windows Server, Active Directory, and cybersecurity fundamentals.
 
 The goal of this repository is to demonstrate continuous hands-on learning while building a professional portfolio for careers in IT support, system administration, network engineering, and cybersecurity.
+
+The portfolio emphasizes repeatable, well-documented lab exercises that demonstrate practical problem-solving and progressively build enterprise system administration and cybersecurity skills.
 
 ---
 
