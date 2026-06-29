@@ -124,6 +124,32 @@ Each lab includes:
 
 ---
 
+## 🗺️ Lab Roadmap
+
+This roadmap outlines completed, current, and planned technical labs in this repository.
+
+### ✅ Completed Labs
+- Network Troubleshooting (Host-Only VirtualBox Networking)
+- SSH Administration (Remote Linux Access)
+- Nmap Network Discovery (Port Scanning & Enumeration)
+- Wireshark Traffic Analysis (Packet Capture & Inspection)
+- Linux Permissions (Users, Groups, and Access Control)
+- UFW Firewall Configuration (Host-Based Firewall Rules)
+
+### 🔧 In Progress Labs
+- Apache Web Server Deployment (Linux Service Hosting)
+- Linux Log Analysis (System and Security Logs)
+- DNS Troubleshooting and Resolution Analysis
+
+### 🚀 Planned Advanced Labs
+- Metasploitable 2 Vulnerability Testing
+- Active Directory Lab (Windows Domain Environment)
+- SIEM Log Forwarding and Analysis
+- Linux Hardening and Security Baselines
+- Incident Response Simulation Lab
+
+---
+
 ## Network Configuration
 
 All virtual machines are connected using a Host-Only Adapter in VirtualBox to provide isolated communication between systems.
@@ -131,6 +157,53 @@ All virtual machines are connected using a Host-Only Adapter in VirtualBox to pr
 ## Network Architecture
 
 All virtual machines communicate through a VirtualBox Host-Only network, creating an isolated internal environment for safe testing of networking, system administration, and security tools without external network exposure.
+
+---
+
+## 🏗️ Lab Architecture Overview
+
+This environment simulates a small enterprise-style network using VirtualBox Host-Only networking.
+
+```text
+                 [ Windows 11 ]
+                       |
+                       |  ICMP / TCP / SSH / Nmap
+                       |
+        -----------------------------------------
+        |                                       |
+[ Ubuntu Server ] ------------------- [ Kali Linux ]
+   SSH Server        Logs + Firewall     Security Testing
+
+Key Design Principles
+- Isolated internal network (Host-Only)
+- No external internet dependency for testing
+- Simulated attacker (Kali) and server (Ubuntu)
+- Windows used for traffic generation and testing
+
+---
+# 🎯 4. Add: Lab Methodology Standard (NEW SECTION)
+
+This makes your documentation look *enterprise-level*.
+
+Place near “What You’ll Find”.
+
+```markdown
+## 🧪 Lab Methodology Standard
+
+Each lab in this repository follows a consistent structure:
+
+1. Objective Definition
+2. Environment Setup
+3. Tool Selection
+4. Command Execution
+5. Packet or System Analysis
+6. Screenshot Evidence Collection
+7. Troubleshooting (if applicable)
+8. Security Observations
+9. Real-World Application
+10. Conclusion and Skills Summary
+
+```
 
 ---
 
@@ -163,6 +236,25 @@ All virtual machines communicate through a VirtualBox Host-Only network, creatin
 - Linux firewall administration
 - UFW configuration
 - Network access control
+
+---
+
+## 📊 Skills Matrix
+
+This matrix maps completed labs to the technical skills they demonstrate.
+
+| Skill Area | Labs |
+|------------|------|
+| Linux Administration | Permissions Lab, UFW Lab, SSH Lab |
+| Networking Fundamentals | Network Troubleshooting, Nmap Lab |
+| Packet Analysis | Wireshark Traffic Analysis |
+| Security Fundamentals | UFW Firewall Lab, Permissions Lab |
+| Remote Access | SSH Administration Lab |
+| System Troubleshooting | Network Troubleshooting Lab |
+| Network Scanning | Nmap Discovery Lab |
+| Traffic Inspection | Wireshark Lab |
+| User & Group Management | Linux Permissions Lab |
+| Firewall Configuration | UFW Firewall Lab |
 
 ---
 
@@ -312,28 +404,29 @@ multi-os-network-lab/
 
 ## Summary
 
-This repository showcases a growing collection of hands-on IT infrastructure and cybersecurity labs built within a self-hosted virtual environment using Windows 11, Ubuntu Linux, and Kali Linux.
+This repository demonstrates hands-on experience building and managing a multi-operating system virtual lab environment using Windows 11, Ubuntu Linux, and Kali Linux.
 
-The projects demonstrate practical experience with:
+The environment simulates real-world IT and cybersecurity infrastructure, including secure remote access, firewall configuration, packet analysis, and network troubleshooting.
 
-- Linux system administration
-- Windows administration
-- TCP/IP networking
-- Virtual machine deployment and management
-- SSH remote administration
-- Network troubleshooting
-- Network discovery using Nmap
-- Packet capture and traffic analysis using Wireshark
-- Linux users, groups, and file permissions
-- Technical documentation following industry best practices
+Core technologies used include:
+- Linux system administration (users, groups, permissions, services)
+- Network analysis tools (Wireshark, Nmap)
+- Secure remote administration (SSH)
+- Host-based firewall configuration (UFW)
+- TCP/IP networking and troubleshooting
 
-Each lab follows a consistent structure that includes objectives, methodologies, commands, screenshots, technical analysis, troubleshooting notes, security observations, and conclusions. This documentation style mirrors the standards commonly used in enterprise IT environments.
+Each lab is fully documented with structured methodology, commands, screenshots, and technical explanations aligned with real enterprise documentation practices.
 
-As new labs are completed, this repository will continue to expand with projects covering Linux administration, web services, firewall configuration, log analysis, vulnerability assessment, Windows Server, Active Directory, and cybersecurity fundamentals.
+## 🚀 Professional Value
 
-The goal of this repository is to demonstrate continuous hands-on learning while building a professional portfolio for careers in IT support, system administration, network engineering, and cybersecurity.
+This repository demonstrates:
+- Practical system administration experience
+- Network and security troubleshooting skills
+- Ability to document technical processes clearly
+- Understanding of enterprise-style network environments
+- Progressive skill development across multiple IT domains
 
-The portfolio emphasizes repeatable, well-documented lab exercises that demonstrate practical problem-solving and progressively build enterprise system administration and cybersecurity skills.
+This project continues to evolve as additional labs are added, including web services, Active Directory environments, vulnerability testing, and security monitoring systems.
 
 ---
 
