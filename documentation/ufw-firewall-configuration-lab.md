@@ -177,59 +177,75 @@ sudo ufw status
 
 ## Evidence
 
-### UFW Version
+### Firewall Status (Inactive)
 
-![UFW Version](../screenshots/ufw/ufw-version.png)
+![Firewall Status (Inactive)](../screenshots/ufw/ufw-status-inactive.png)
 
-*Figure 1. Verifying that the UFW firewall utility is installed on the Ubuntu system.*
-
----
-
-### Firewall Status Before Configuration
-
-![Firewall Status](../screenshots/ufw/ufw-status-before.png)
-
-*Figure 2. Initial firewall status showing that UFW is inactive prior to configuration.*
+*Figure 1. Initial UFW status showing that the firewall is inactive before any configuration changes are made.*
 
 ---
 
-### Firewall Enabled
+### UFW Enabled
 
-![Firewall Enabled](../screenshots/ufw/ufw-enabled.png)
+![UFW Enabled](../screenshots/ufw/ufw-enabled.png)
 
-*Figure 3. UFW successfully enabled with default security policies applied.*
-
----
-
-### SSH Rule Added
-
-![SSH Rule](../screenshots/ufw/ufw-allow-ssh.png)
-
-*Figure 4. Firewall configured to allow inbound SSH connections on TCP port 22.*
+*Figure 2. UFW enabled successfully, activating the firewall with the default security policies.*
 
 ---
 
-### Firewall Rules
+### Firewall Status (Active)
 
-![Firewall Rules](../screenshots/ufw/ufw-status-numbered.png)
+![Firewall Status (Active)](../screenshots/ufw/ufw-status-active.png)
 
-*Figure 5. Numbered firewall rules displayed after configuration.*
-
----
-
-### SSH Connection Test
-
-![SSH Test](../screenshots/ufw/ssh-after-firewall.png)
-
-*Figure 6. Successful SSH connection from Kali Linux after firewall configuration.*
+*Figure 3. Verification that UFW is active and enforcing firewall rules on the Ubuntu system.*
 
 ---
 
-### Rule Removal
+### SSH Rule Configuration
 
-![Rule Removal](../screenshots/ufw/ufw-delete-rule.png)
+![SSH Rule Configuration](../screenshots/ufw/ufw-allow-ssh.png)
 
-*Figure 7. Demonstration of removing an existing firewall rule using UFW.*
+*Figure 4. Firewall rule allowing inbound SSH (TCP port 22) to permit secure remote administration.*
+
+---
+
+### HTTP Rule Configuration
+
+![HTTP Rule Configuration](../screenshots/ufw/ufw-allow-http.png)
+
+*Figure 5. Firewall rule allowing inbound HTTP (TCP port 80) traffic, demonstrating how additional services can be permitted.*
+
+---
+
+### FTP Rule Denied
+
+![FTP Rule Denied](../screenshots/ufw/ufw-deny-ftp.png)
+
+*Figure 6. Firewall rule denying inbound FTP (TCP port 21) traffic to restrict access to unnecessary services.*
+
+---
+
+### SSH Connectivity Test
+
+![SSH Connectivity Test](../screenshots/ufw/ssh-after-firewall.png)
+
+*Figure 7. Successful SSH connection from the Kali Linux virtual machine after enabling UFW and allowing SSH traffic through the firewall.*
+
+---
+
+### Nmap Scan After Firewall Configuration
+
+![Nmap After Firewall](../screenshots/ufw/nmap-after-firewall.png)
+
+*Figure 8. Nmap scan performed after firewall configuration, confirming that only the permitted services are accessible.*
+
+---
+
+### Final Firewall Rules
+
+![Final Firewall Rules](../screenshots/ufw/ufw-final-rules.png)
+
+*Figure 9. Final UFW rule set displayed using `ufw status numbered`, showing the active firewall configuration after completing the lab.*
 
 ---
 
