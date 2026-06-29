@@ -1,5 +1,3 @@
-# Multi-OS Network Lab
-
 ![Platform](https://img.shields.io/badge/Platform-VirtualBox-blue)
 ![OS](https://img.shields.io/badge/OS-Windows%2011%20%7C%20Ubuntu%20%7C%20Kali-success)
 ![Status](https://img.shields.io/badge/Status-Active-brightgreen)
