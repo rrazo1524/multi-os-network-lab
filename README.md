@@ -252,7 +252,7 @@ multi-os-network-lab/
 - [Nmap Network Discovery Lab](documentation/nmap-network-discovery-lab.md)
 - [Wireshark Traffic Analysis Lab](documentation/wireshark-traffic-analysis-lab.md)
 - [Linux Permissions Lab](documentation/Linux-Permissions-Lab.md)
-- [UFW Firewall Configuration Lab](documentation/ufw-firewall-lab.md)
+- [UFW Firewall Configuration Lab](documentation/ufw-firewall-configuration-lab.md)
 
 ---
 
