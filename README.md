@@ -5,6 +5,16 @@
 ![Status](https://img.shields.io/badge/Status-Active-brightgreen)
 ![License](https://img.shields.io/badge/License-MIT-lightgrey)
 
+## 👤 About Me
+
+IT student focused on system administration, networking, and cybersecurity. This repository serves as a hands-on lab portfolio demonstrating real-world technical skills through a self-built virtual environment.
+
+## 👨‍💻 IT & Cybersecurity Lab Portfolio
+
+A structured, hands-on virtual lab environment demonstrating real-world skills in Linux administration, networking, system security, and troubleshooting.
+
+This repository is designed as a progressive learning portfolio simulating enterprise IT and cybersecurity environments using VirtualBox.
+
 ## Featured Labs
 
 This repository currently includes the following completed hands-on projects:
@@ -33,19 +43,31 @@ The purpose of this lab is to develop skills in:
 
 ---
 
-## What You'll Find
+## 🎯 Technical Focus Areas
 
-Each lab includes:
+This lab environment focuses on building practical skills in:
 
-- Objectives
-- Lab environment
-- Commands executed
-- Screenshots
-- Technical explanations
-- Troubleshooting steps
-- Security observations
-- Real-world relevance
-- Skills demonstrated
+- Linux System Administration (Ubuntu)
+- Network Configuration & Troubleshooting (TCP/IP, ICMP)
+- Security Fundamentals (Permissions, Firewalls, Access Control)
+- Remote Administration (SSH)
+- Network Analysis (Wireshark, Nmap)
+- Virtualization & Lab Infrastructure (VirtualBox)
+- Basic Defensive Security Practices
+
+---
+
+## 📘 Lab Structure Overview
+
+Each lab in this repository follows a professional documentation structure:
+
+- Clear objectives and lab goals
+- Step-by-step command execution
+- Real-world troubleshooting scenarios
+- Security analysis and observations
+- Screenshots as evidence of execution
+- Technical explanations of outcomes
+- Skills mapping to enterprise IT concepts
 
 ---
 
@@ -180,12 +202,8 @@ Key Design Principles
 - Simulated attacker (Kali) and server (Ubuntu)
 - Windows used for traffic generation and testing
 
+```
 ---
-# 🎯 4. Add: Lab Methodology Standard (NEW SECTION)
-
-This makes your documentation look *enterprise-level*.
-
-Place near “What You’ll Find”.
 
 ```markdown
 ## 🧪 Lab Methodology Standard
@@ -402,9 +420,26 @@ multi-os-network-lab/
 
 ---
 
-## Summary
+## 🧾 Documentation Standards
 
-This repository demonstrates hands-on experience building and managing a multi-operating system virtual lab environment using Windows 11, Ubuntu Linux, and Kali Linux.
+All labs in this repository follow structured technical documentation practices similar to enterprise IT environments.
+
+Each lab includes:
+
+- Reproducible command sequences
+- Verified system outputs
+- Annotated screenshots
+- Security impact explanations
+- Troubleshooting documentation
+- Real-world application context
+
+---
+
+## 🧾 Summary
+
+This repository serves as a structured IT and cybersecurity lab portfolio demonstrating hands-on experience with Linux systems, networking, security tools, and virtualization.
+
+Built using a multi-VM environment (Windows 11, Ubuntu Linux, and Kali Linux), this lab simulates real-world enterprise scenarios including system administration, network troubleshooting, and security analysis.
 
 The environment simulates real-world IT and cybersecurity infrastructure, including secure remote access, firewall configuration, packet analysis, and network troubleshooting.
 
@@ -416,6 +451,8 @@ Core technologies used include:
 - TCP/IP networking and troubleshooting
 
 Each lab is fully documented with structured methodology, commands, screenshots, and technical explanations aligned with real enterprise documentation practices.
+
+This environment was built and maintained using VirtualBox to simulate enterprise-style network segmentation, security controls, and system administration workflows commonly found in production IT environments.
 
 ## 🚀 Professional Value
 
