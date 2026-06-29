@@ -7,9 +7,24 @@
 ![Portfolio](https://img.shields.io/badge/Portfolio-Hands--On-blueviolet)
 ![Labs](https://img.shields.io/badge/Labs-6%20Completed-success)
 
+<h1 align="center">Multi-OS Network Lab</h1>
+
+<p align="center">
+Enterprise-Style IT & Cybersecurity Home Lab built with
+<strong>Windows 11</strong>,
+<strong>Ubuntu Linux</strong>,
+<strong>Kali Linux</strong>, and
+<strong>VirtualBox</strong>.
+</p>
+
+<p align="center">
+Hands-on portfolio demonstrating Linux administration, networking,
+system security, troubleshooting, and technical documentation.
+</p>
+
 ---
 
-# 👤 About Me
+## 👤 About Me
 
 IT student focused on **System Administration, Networking, and Cybersecurity**.
 
@@ -17,7 +32,16 @@ This repository serves as a hands-on technical portfolio demonstrating practical
 
 ---
 
-# 🚀 What This Portfolio Demonstrates
+## 📫 Connect With Me
+
+I'm always open to connecting with other IT professionals, recruiters, and fellow learners.
+
+- 💼 LinkedIn: https://linkedin.com/in/raul-razo-2ab25122b
+- 💻 GitHub: https://github.com/rrazo1524
+
+---
+
+## 🚀 What This Portfolio Demonstrates
 
 This project demonstrates practical, job-ready experience in:
 
@@ -32,7 +56,7 @@ This project demonstrates practical, job-ready experience in:
 
 ---
 
-# 🎯 Career Focus
+## 🎯 Career Focus
 
 Aspiring:
 
@@ -44,7 +68,7 @@ with a focus on hands-on infrastructure, networking, Linux administration, and d
 
 ---
 
-# 👨‍💻 IT & Cybersecurity Lab Portfolio
+## 👨‍💻 IT & Cybersecurity Lab Portfolio
 
 This repository documents a structured multi-operating system lab environment built entirely inside VirtualBox.
 
@@ -60,23 +84,23 @@ The environment simulates enterprise networking scenarios while providing hands-
 
 ---
 
-# ⭐ Featured Labs
+## ⭐ Featured Labs
 
-- 🛠️ Network Troubleshooting Lab
-- 🔐 SSH Administration Lab
-- 🌐 Nmap Network Discovery Lab
-- 📡 Wireshark Traffic Analysis Lab
-- 🐧 Linux Permissions Lab
-- 🔥 UFW Firewall Configuration Lab
+- 🛠️ [Network Troubleshooting Lab](documentation/network-troubleshooting-log.md)
+- 🔐 [SSH Administration Lab](documentation/ssh-administration-lab.md)
+- 🌐 [Nmap Network Discovery Lab](documentation/nmap-network-discovery-lab.md)
+- 📡 [Wireshark Traffic Analysis Lab](documentation/wireshark-traffic-analysis-lab.md)
+- 🐧 [Linux Permissions Lab](documentation/linux-permissions-lab.md)
+- 🔥 [UFW Firewall Configuration Lab](documentation/ufw-firewall-configuration-lab.md)
 
 ---
 
-# 🚀 Quick Start
+## 🚀 Quick Start
 
 Clone the repository:
 
 ```bash
-git clone https://github.com/yourusername/multi-os-network-lab.git
+git clone https://github.com/rrazo1524/multi-os-network-lab.git
 ```
 
 Browse the **documentation/** directory to explore each completed lab.
@@ -93,7 +117,7 @@ Each lab contains:
 
 ---
 
-# 📘 Overview
+## 📘 Overview
 
 This project documents my personal multi-operating system home lab built using:
 
@@ -114,7 +138,7 @@ The objective is to develop practical experience in:
 
 ---
 
-# 🧪 Lab Structure
+## 🧪 Lab Structure
 
 Each lab follows professional documentation practices including:
 
@@ -129,7 +153,7 @@ Each lab follows professional documentation practices including:
 
 ---
 
-# 🎯 Technical Focus Areas
+## 🎯 Technical Focus Areas
 
 - Linux Administration
 - Windows Administration
@@ -146,7 +170,7 @@ Each lab follows professional documentation practices including:
 
 ---
 
-# 🛠️ Technologies Used
+## 🛠️ Technologies Used
 
 - VirtualBox
 - Windows 11
@@ -167,7 +191,7 @@ Each lab follows professional documentation practices including:
 
 ---
 
-# 🎯 Project Goals
+## 🎯 Project Goals
 
 - Configure communication between multiple operating systems
 - Practice enterprise troubleshooting
@@ -179,7 +203,7 @@ Each lab follows professional documentation practices including:
 
 ---
 
-# 🗺️ Lab Roadmap
+## 🗺️ Lab Roadmap
 
 ## ✅ Completed
 
@@ -206,7 +230,7 @@ Each lab follows professional documentation practices including:
 
 ---
 
-# 🌐 Network Architecture
+## 🌐 Network Architecture
 
 All virtual machines communicate through an isolated VirtualBox Host-Only network.
 
@@ -234,7 +258,7 @@ All virtual machines communicate through an isolated VirtualBox Host-Only networ
 
 ---
 
-# 🧪 Lab Methodology
+## 🧪 Lab Methodology
 
 Every lab follows the same workflow:
 
@@ -251,7 +275,7 @@ Every lab follows the same workflow:
 
 ---
 
-# 🌐 Current Network Configuration
+## 🌐 Current Network Configuration
 
 | Machine | IP Address |
 |----------|------------|
@@ -261,7 +285,7 @@ Every lab follows the same workflow:
 
 ---
 
-# 💼 Skills Demonstrated
+## 💼 Skills Demonstrated
 
 - Linux Administration
 - Windows Administration
@@ -279,7 +303,7 @@ Every lab follows the same workflow:
 
 ---
 
-# 📊 Skills Matrix
+## 📊 Skills Matrix
 
 | Skill | Demonstrated In |
 |--------|-----------------|
@@ -294,7 +318,7 @@ Every lab follows the same workflow:
 
 ---
 
-# 🏆 Key Achievements
+## 🏆 Key Achievements
 
 - Built a complete enterprise-style virtual lab
 - Configured secure SSH administration
@@ -306,7 +330,7 @@ Every lab follows the same workflow:
 
 ---
 
-# 📈 Lab Statistics
+## 📈 Lab Statistics
 
 - 🖥️ 3 Virtual Machines
 - 📄 6 Completed Labs
@@ -318,7 +342,7 @@ Every lab follows the same workflow:
 
 ---
 
-# 🏆 Skills Aligned to Industry Roles
+## 🏆 Skills Aligned to Industry Roles
 
 This portfolio demonstrates skills commonly required for:
 
@@ -342,7 +366,7 @@ Core competencies include:
 
 ---
 
-# 📁 Repository Structure
+## 📁 Repository Structure
 
 ```text
 multi-os-network-lab/
@@ -365,7 +389,7 @@ multi-os-network-lab/
 
 ---
 
-# 📚 Documentation
+## 📚 Documentation
 
 Each lab contains:
 
@@ -379,7 +403,7 @@ Each lab contains:
 
 ---
 
-# 📸 Evidence
+## 📸 Evidence
 
 Repository includes over **50 screenshots** documenting:
 
@@ -393,7 +417,7 @@ Repository includes over **50 screenshots** documenting:
 
 ---
 
-# 📈 Project Status
+## 📈 Project Status
 
 ## ✅ Completed
 
@@ -421,7 +445,7 @@ Repository includes over **50 screenshots** documenting:
 
 ---
 
-# 🧾 Documentation Standards
+## 🧾 Documentation Standards
 
 Every lab includes:
 
@@ -434,7 +458,7 @@ Every lab includes:
 
 ---
 
-# 🔒 Security Mindset
+## 🔒 Security Mindset
 
 This environment emphasizes:
 
@@ -447,7 +471,7 @@ This environment emphasizes:
 
 ---
 
-# 🚀 Professional Value
+## 🚀 Professional Value
 
 This repository demonstrates practical experience in:
 
@@ -462,10 +486,16 @@ It represents continuous professional development as additional enterprise techn
 
 ---
 
-# 📬 About This Repository
+## 📬 About This Repository
 
 This repository is actively maintained as part of my professional development in Information Technology and Cybersecurity.
 
-New labs, documentation, and screenshots will continue to be added as additional technologies and enterprise scenarios are explored.
+New labs, documentation, and screenshots will continue to be added as I expand this environment with additional enterprise technologies, security tools, and system administration projects.
 
-Thank you for taking the time to review my work.
+Thank you for taking the time to review my work. Feedback and suggestions are always welcome.
+
+---
+
+## 📄 License
+
+This project is licensed under the MIT License. See the LICENSE file for details.
